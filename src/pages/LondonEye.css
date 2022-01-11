@@ -1,0 +1,28 @@
+.sidebar {
+  position: absolute;
+  top: 28rem;
+  background: none;
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar > img {
+  width: 500px;
+  height: auto;
+  margin: 10px;
+  border: 12px;
+}
+
+.image.title2 {
+  position: absolute;
+  top: 25rem;
+  right: 15rem;
+  padding: 3 px 18 px;
+  z-index: 1;
+}
